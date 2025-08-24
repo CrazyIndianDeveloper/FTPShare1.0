@@ -12,7 +12,6 @@ from pyftpdlib.servers import FTPServer
 def run_FTPShare10():
     # I KNOW IT SHOULD BE IN LOWERCASE BY THE WAY IT'S  FTPShare1.0
 
-    
     authorizer = DummyAuthorizer()
 
     # Add an anonymous user who can only read files (permissions: elr)
@@ -46,4 +45,5 @@ def run_FTPShare10():
 
 if __name__ == "__main__":
     run_FTPShare10()
+
 
